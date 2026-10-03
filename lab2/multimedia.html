@@ -4,6 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cidade</title>
+    <style>
+      .fotografias {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .fotografias img {
+        width: 150px;
+        border-radius: 20px;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -17,7 +29,63 @@
     </header>
     <main>
       <h2>Multimédia</h2>
-      <p>A minha cidade é muito linda!!!</p>
+      <p>Nesta página encontra conteúdos multimédia.</p>
+      <p>
+        <a href="#fotografias">Fotografias</a>
+        <a href="#video">Vídeo</a>
+        <a href="#poema">Poema</a>
+      </p>
+
+      <section>
+        <h3>Fotografias</h3>
+        <div class="fotografias">
+          <img src="images/Forum.jpg" alt="Forum Montijo" />
+          <img src="images/Igreja.jpg" alt="Igreja do Divino Espírito Santo" />
+          <img src="images/Moinho.jpg" alt="Moinho de Vento do Esteval" />
+          <img src="images/Montepio.jpg" alt="Residências Montepio Montijo" />
+          <img src="images/Musica.jpg" alt="Casa da Música Jorge Peixinho" />
+          <img
+            src="images/Parque.jpg"
+            alt="Parque Municipal Carlos Hidalgo Gomes de Loureiro"
+          />
+          <img src="images/Praça.jpg" alt="Praça da República" />
+          <img src="images/Teatro.jpg" alt="Cinema-Teatro Joaquim d'Almeida" />
+        </div>
+      </section>
+
+      <section>
+        <h3>Vídeo</h3>
+        <div class="video">
+          <iframe
+            width="280"
+            height="157.5"
+            src="https://www.youtube.com/embed/ktz8B-mBIH0?si=1H3d8DULFc8_VPO4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+              web-share;
+            "
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section>
+        <h3>Poesia</h3>
+        <div class="poema">
+          <p>Quando o Montijo festeja</p>
+          <p>O São Pedro Pescador,</p>
+          <p>Não há ninguém que não veja</p>
+          <p>Quanto vale o seu amor.</p>
+        </div>
+      </section>
     </main>
     <footer>
       <p>DIW 2026</p>

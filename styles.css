@@ -129,12 +129,12 @@ section {
   text-decoration: underline;
 }
 
-.hero nav a:hover {
-  color: lightskyblue;
-}
-
 .texto a:hover {
   text-decoration: underline;
+}
+
+.hero nav a:hover {
+  color: lightskyblue;
 }
 
 footer {

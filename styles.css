@@ -19,6 +19,7 @@ section {
   background:
     url("https://static.wikia.nocookie.net/aceattorney/images/c/c6/Fey_%26_Co._Office_entrance.png/revision/latest?cb=20210324160311&format=original");
   background-size: cover;
+  background-position: center;
 }
 
 .hero nav {
@@ -73,7 +74,7 @@ section {
 }
 
 .card {
-  flex: 250px;
+  flex: 1 1 250px;
   padding: 30px;
   background: white;
   border-radius: 12px;

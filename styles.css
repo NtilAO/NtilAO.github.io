@@ -16,8 +16,7 @@ section {
   align-items: center;
   justify-content: center;
   color: white;
-  background:
-    url("https://static.wikia.nocookie.net/aceattorney/images/c/c6/Fey_%26_Co._Office_entrance.png/revision/latest?cb=20210324160311&format=original");
+  background: url("https://static.wikia.nocookie.net/aceattorney/images/c/c6/Fey_%26_Co._Office_entrance.png/revision/latest?cb=20210324160311&format=original");
   background-size: cover;
   background-position: center;
 }
@@ -143,7 +142,7 @@ footer {
   color: white;
 }
 
-@media (max-width: 770px) {
+@media (width <= 770px) {
   section {
     padding: 30px 20px;
   }

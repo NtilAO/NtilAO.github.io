@@ -22,32 +22,6 @@ section {
   background-position: center;
 }
 
-.hero nav {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  padding: 25px;
-}
-
-.hero nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  gap: 1rem;
-  justify-content: flex-end;
-}
-
-.hero nav a {
-  text-decoration: none;
-  color: inherit;
-  font-weight: bold;
-}
-
-.hero nav a:hover {
-  color: lightskyblue;
-}
-
 .projetos {
   background: lightskyblue;
   display: flex;
@@ -135,6 +109,32 @@ section {
 
 .imagem img {
   max-width: 400px;
+}
+
+.hero nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 25px;
+}
+
+.hero nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.hero nav a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+.hero nav a:hover {
+  color: lightskyblue;
 }
 
 footer {

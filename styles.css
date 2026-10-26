@@ -54,6 +54,21 @@ section {
   border-radius: 12px;
 }
 
+.card h3 {
+  margin-bottom: 15px;
+  color: teal;
+}
+
+.card p {
+  margin-bottom: 20px;
+}
+
+.card a {
+  color: teal;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .cadeira {
   background: blanchedalmond;
   display: flex;
@@ -84,10 +99,6 @@ section {
   text-decoration: none;
 }
 
-.texto a:hover {
-  text-decoration: underline;
-}
-
 .imagem img {
   max-width: 400px;
 }
@@ -114,26 +125,15 @@ section {
   font-weight: bold;
 }
 
+.card a:hover {
+  text-decoration: underline;
+}
+
 .hero nav a:hover {
   color: lightskyblue;
 }
 
-.card h3 {
-  margin-bottom: 15px;
-  color: teal;
-}
-
-.card p {
-  margin-bottom: 20px;
-}
-
-.card a {
-  color: teal;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.card a:hover {
+.texto a:hover {
   text-decoration: underline;
 }
 
